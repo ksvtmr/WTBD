@@ -14,6 +14,6 @@
 | [docs/05_vystuplenie_i_voprosy.md](docs/05_vystuplenie_i_voprosy.md) | Текст выступления на 6 минут и ответы жюри |
 | [docs/06_istochniki_APA.md](docs/06_istochniki_APA.md) | Источники в стиле APA 7 |
 | [diagrams/](diagrams/) | 16 диаграмм PNG и генератор (`gen.py` + `render.js`, `BARE=1` + `render_bare.js` для слайдов) |
-| [deck/](deck/) | Презентация: 10 слайдов + 5 приложений (PPTX с заметками спикера, PDF) |
+| [deck/](deck/) | Презентация: обложка + 8 слайдов + 6 приложений (PPTX с заметками спикера, PDF) |
 
 Все цифры кейса вымышленные. Допущения обозначены в тексте.
