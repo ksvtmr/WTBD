@@ -2,8 +2,12 @@
 
 Внутритекстовые ссылки должны начинаться с того же элемента, что и запись в списке. Например, письмо поставщика в тексте: (Потенциальный поставщик оборудования, 2026), а не «(Письмо…, 2026)», если в списке запись на английском.
 
+Akbulut-Yuksel, M., & Boulatoff, C. (2021). The effects of a green nudge on municipal solid waste: Evidence from a clear bag policy. *Journal of Environmental Economics and Management, 106*, 102404. https://doi.org/10.1016/j.jeem.2020.102404
+
 Ecological Code of the Republic of Kazakhstan, No. 400-VI (2021). https://adilet.zan.kz/rus/docs/K2100000400
 *Номер статьи о слушаниях (в черновике указана ст. 96) перед сдачей сверить на adilet: сайт без JavaScript не отдал текст, проверить не удалось.*
+
+Ek, C., & Söderberg, M. (2024). Norm-based feedback on household waste: Large-scale field experiments in two Swedish municipalities. *Journal of Public Economics, 238*, 105191. https://doi.org/10.1016/j.jpubeco.2024.105191
 
 European Environment Agency. (2023). *Economic instruments and separate collection systems: Key strategies to increase recycling* (Briefing No. 29/2022). https://www.eea.europa.eu/en/analysis/publications/economic-instruments-and-separate-collection
 
@@ -23,6 +27,10 @@ Project Management Institute. (2026). *Pulse of the profession 2026* [Report]. h
 Project Management Institute. (n.d.). *Project charter*. https://www.pmi.org/blog/project-charter
 
 Solid Waste Association of North America. (2026, April 21). *SWANA announces 2026 SDC award recipients*. https://swana.org/news/swana-news-archive/article/2026/04/21/swana-announces-2026-sdc-award-recipients
+
+Vollaard, B., & van Soest, D. (2024). Punishment to promote prosocial behavior: A field experiment. *Journal of Environmental Economics and Management, 124*, 102899. https://doi.org/10.1016/j.jeem.2023.102899
+
+World Economic Forum. (2026). *The GovTech compass: Ten principles for the responsible implementation of GovTech and digital public infrastructure*. https://reports.weforum.org/docs/WEF_The_GovTech_Compass_2026.pdf
 
 ## Переписка из кейса
 

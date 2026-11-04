@@ -11,5 +11,6 @@
 | [docs/04_reestr_riskov.md](docs/04_reestr_riskov.md) | Реестр рисков |
 | [docs/05_vystuplenie_i_voprosy.md](docs/05_vystuplenie_i_voprosy.md) | Текст выступления на 6 минут и ответы жюри |
 | [docs/06_istochniki_APA.md](docs/06_istochniki_APA.md) | Источники в стиле APA 7 |
+| [diagrams/](diagrams/) | 13 диаграмм PNG и генератор (`gen.py` + `render.js`) |
 
 Все цифры кейса вымышленные. Допущения обозначены в тексте.
