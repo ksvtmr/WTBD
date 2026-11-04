@@ -46,19 +46,20 @@ st=[('Весовая и приёмка','Взвешиваем каждую ма�
  ('Оптика + магнит + вихретоковый','ПЭТ, ПНД, картон; чёрный металл; алюминий','чистые товарные фракции'),
  ('Ручная доочистка и прессы','Контроль качества, тюки по стандарту покупателя','продаём продукт, а не «отходы»')]
 arrow=f"<div style='font-size:34px;color:{AC};font-weight:700;align-self:center'>→</div>"
-boxes=arrow.join(f"<div class='card' style='flex:1;display:flex;flex-direction:column;gap:6px;padding:14px'><p style='color:{AC2};font-weight:700;font-size:19px'>{i+1}</p><h3 style='font-size:22px'>{t}</h3><p style='font-size:19px'>{d}</p><p style='font-size:18px;color:{GN}'><b>Зачем:</b> {z}</p></div>" for i,(t,d,z) in enumerate(st))
+sarrow=f"<div style='font-size:22px;color:{AC};font-weight:700;align-self:center'>›</div>"
+boxes=sarrow.join(f"<div class='card' style='flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:6px;padding:12px'><p style='color:{AC2};font-weight:700;font-size:19px'>{i+1}</p><h3 style='font-size:19px;hyphens:auto;overflow-wrap:anywhere' lang='ru'>{t}</h3><p style='font-size:18px'>{d}</p><p style='font-size:17px;color:{GN}'><b>Зачем:</b> {z}</p></div>" for i,(t,d,z) in enumerate(st))
 page('02_arhitektura_zavoda','Архитектура комплекса','Откуда, куда и зачем: модульный комплекс на площадке B',
 f"""<div class='row' style='align-items:stretch'>
-<div class='dk' style='width:260px;display:flex;flex-direction:column;gap:8px'><h3>Откуда</h3><p style='font-size:19px'>Дворы и контейнеры города: 360 тыс. т/год</p><p style='font-size:19px'>Смешанные отходы + раздельный сбор (4 потока)</p><p style='font-size:19px'>Оператор вывоза, маршруты с GPS и весами</p></div>
-{arrow}<div style='flex:1;display:flex;flex-direction:column;gap:10px'>
+<div class='dk' style='width:210px;flex:0 0 210px;box-sizing:border-box;padding:18px;display:flex;flex-direction:column;gap:8px'><h3>Откуда</h3><p style='font-size:19px'>Дворы и контейнеры города: 360 тыс. т/год</p><p style='font-size:19px'>Смешанные отходы + раздельный сбор (4 потока)</p><p style='font-size:19px'>Оператор вывоза, маршруты с GPS и весами</p></div>
+{arrow}<div style='flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:10px'>
 <p style='font-weight:700;color:{DK};font-size:22px'>Модуль 1 · сортировка сухих фракций и смешанных отходов</p>
-<div class='row' style='gap:8px'>{boxes}</div>
+<div class='row' style='gap:4px'>{boxes}</div>
 <div class='row' style='gap:12px'>
 <div class='card' style='flex:1;border-left:8px solid {GN}'><h3 style='font-size:22px'>Модуль 2 · органика</h3><p style='font-size:19px'>Мелкая фракция и пищевые отходы → туннельное компостирование 6–8 недель → компост для озеленения города</p></div>
 <div class='card' style='flex:1;border-left:8px solid {GR}'><h3 style='font-size:22px'>Модуль 3 · тара</h3><p style='font-size:19px'>Чистый ПЭТ и алюминий из возврата тары и раздельного сбора → прямой путь к переработчику</p></div>
 <div class='card' style='flex:1;border-left:8px solid {RD}'><h3 style='font-size:22px'>Модуль 4 · остаток</h3><p style='font-size:19px'>То, что не продаётся → на полигон по договору; цель: −25–35% к захоронению</p></div>
 </div></div>{arrow}
-<div class='dk' style='width:260px;display:flex;flex-direction:column;gap:8px'><h3>Куда</h3><p style='font-size:19px'>Переработчики: 45–75 тыс. т/год фракций по договорам</p><p style='font-size:19px'>Город и фермеры: компост</p><p style='font-size:19px'>Полигон: только остаток</p><p style='font-size:19px'>ИС учёта: данные о каждой тонне</p></div>
+<div class='dk' style='width:210px;flex:0 0 210px;box-sizing:border-box;padding:18px;display:flex;flex-direction:column;gap:8px'><h3>Куда</h3><p style='font-size:19px'>Переработчики: 45–75 тыс. т/год фракций по договорам</p><p style='font-size:19px'>Город и фермеры: компост</p><p style='font-size:19px'>Полигон: только остаток</p><p style='font-size:19px'>ИС учёта: данные о каждой тонне</p></div>
 </div>
 <div class='row'>
 <div class='card' style='flex:1;background:{BG2}'><p><b>Почему модули:</b> каждый модуль получает деньги только после трёх доказательств: сырьё подтверждено, обработка испытана, покупатель согласован.</p></div>
@@ -157,9 +158,9 @@ tbl(['Скрытый риск','Почему он скрыт','Сигнал (т�
 ],['20%','27%','23%','30%']),'Каждый скрытый риск занесён в реестр с владельцем и проверяется на каждом спринт-обзоре')
 
 # ---------- 08 Карта стейкхолдеров (связи)
-N={'akim':(860,110,'Акимат / спонсор',DK),'masl':(260,90,'Маслихат',GR),'fin':(1460,90,'Финслужба',GR),
-'zhit':(220,400,'Жители и общ. совет',AC),'oper':(560,560,'Оператор вывоза',GR),'kompl':(1060,720,'Комплекс (проект)',DK),
-'pererab':(1560,720,'Переработчики',GN),'post':(1540,420,'Поставщики оборудования',GR),'reg':(220,740,'Экология, санэпид, экспертиза',GR),'eksp':(1060,420,'Уходящий эксперт → консультант',RD)}
+N={'akim':(864,80,'Акимат / спонсор',DK),'masl':(230,80,'Маслихат',GR),'fin':(1480,80,'Финслужба',GR),
+'zhit':(200,330,'Жители и общ. совет',AC),'oper':(420,580,'Оператор вывоза',GR),'kompl':(1060,730,'Комплекс (проект)',DK),
+'pererab':(1560,730,'Переработчики',GN),'post':(1480,520,'Поставщики оборудования',GR),'reg':(1480,300,'Экология, санэпид, экспертиза',GR),'eksp':(900,420,'Уходящий эксперт → консультант',RD)}
 E=[('masl','akim','бюджет, тариф PAYT'),('akim','masl','отчёты, данные'),('akim','fin','прогноз'),('fin','akim','деньги, лимит'),
 ('zhit','akim','обратная связь, протест'),('akim','zhit','данные, панель KPI'),('zhit','oper','отходы по фракциям'),
 ('oper','kompl','потоки, вес'),('akim','oper','контракт, оплата'),('kompl','pererab','фракции по стандарту'),('pererab','kompl','деньги, требования'),
