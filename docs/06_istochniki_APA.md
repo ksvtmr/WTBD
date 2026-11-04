@@ -32,6 +32,20 @@ Vollaard, B., & van Soest, D. (2024). Punishment to promote prosocial behavior: 
 
 World Economic Forum. (2026). *The GovTech compass: Ten principles for the responsible implementation of GovTech and digital public infrastructure*. https://reports.weforum.org/docs/WEF_The_GovTech_Compass_2026.pdf
 
+## Источники по мировому опыту (добавлены в редакции 2.0; требуют проверки командой перед цитированием)
+
+Bundesamt für Umwelt BAFU. (n.d.). *Abfall: Kehrichtverbrennungsanlagen*. https://www.bafu.admin.ch
+
+Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz [BMUV]. (n.d.). *Kreislaufwirtschaft: Verpackungsgesetz und Ablagerungsverbot*. https://www.bmuv.de
+
+Contarina S.p.A. (n.d.). *Tariffa puntuale*. https://contarina.it
+
+Deutsche Pfandsystem GmbH [DPG]. (n.d.). *Das Pfandsystem*. https://dpg-pfandsystem.de
+
+Korea Environment Corporation [K-eco]. (n.d.). *Food waste volume-based fee system*. https://www.keco.or.kr
+
+Snaga Ljubljana. (n.d.). *Center ponovne uporabe*. https://www.snaga.si
+
 ## Переписка из кейса
 
 Письма из кейса — вымышленные материалы. Их лучше цитировать как часть кейса: (PMI Kazakhstan Chapter, 2026, вх. док. 02). Отдельные записи в списке литературы для неопубликованной переписки APA 7 не требует: это «личная коммуникация», и для вымышленных документов она избыточна.

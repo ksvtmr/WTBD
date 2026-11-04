@@ -2,6 +2,8 @@
 
 Материалы команды для PMI Kazakhstan Chapter Student Hackathon, 4 ноября 2026.
 
+**Идея: сначала покупатель — затем инвестиции.** Деньги на модуль комплекса открываются только после трёх доказательств: сырьё подтверждено, обработка испытана, покупатель согласован.
+
 | Файл | Что внутри |
 |---|---|
 | [docs/00_plan_komandy.md](docs/00_plan_komandy.md) | План работы команды на день хакатона по ролям |
@@ -11,6 +13,7 @@
 | [docs/04_reestr_riskov.md](docs/04_reestr_riskov.md) | Реестр рисков |
 | [docs/05_vystuplenie_i_voprosy.md](docs/05_vystuplenie_i_voprosy.md) | Текст выступления на 6 минут и ответы жюри |
 | [docs/06_istochniki_APA.md](docs/06_istochniki_APA.md) | Источники в стиле APA 7 |
-| [diagrams/](diagrams/) | 13 диаграмм PNG и генератор (`gen.py` + `render.js`) |
+| [diagrams/](diagrams/) | 16 диаграмм PNG и генератор (`gen.py` + `render.js`, `BARE=1` + `render_bare.js` для слайдов) |
+| [deck/](deck/) | Презентация: 10 слайдов + 5 приложений (PPTX с заметками спикера, PDF) |
 
 Все цифры кейса вымышленные. Допущения обозначены в тексте.
